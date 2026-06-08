@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Test Suite" parallel="none">
+    
+    <parameter name="browser" value="chrome"/>
+    
+    <test name="End-to-End Checkout Validation">
+        <classes>
+            <class name="com.saucedemo.runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>
